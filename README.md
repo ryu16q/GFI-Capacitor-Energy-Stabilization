@@ -32,7 +32,7 @@ $$\frac{2}{C_{dc}}\cdot\int_{0}^{t}\Delta Pd\tau=\Delta V_{dc}^{2}$$
 
 $$\Delta V_{dc}^{2}=\frac{2}{C_{dc}}\cdot\int_{0}^{t}\Delta Pd\tau$$
 
-Where $\Delta P=(P_{out}(\tau)-P_{pv}(\tau)).$
+Where $$\DeltaP=(P_{out}(\tau)-P_{pv}(\tau)).$$
 
 The formula:
 
