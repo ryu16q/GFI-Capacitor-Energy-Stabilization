@@ -4,7 +4,7 @@ Authors: Hassan Hade
 
 Abstract
 
-This research presents a phase angle control formulation for Grid-Forming Inverters (GFIs) connected to photovoltaic solar systems. The proposed formulation aims to mitigate the impact of DC-link Voltage ($V_{dc}$) ripples by directly linking the squared voltage variations To the instantaneous phase angle of the inverter ($\theta(t)$). The equation relies on calculating an integral function of the energy Deficit or surplus between the AC output and the PV input, utilizing a Ripple compensation gain measured in ($rad/V^2$). The analytical study Demonstrates that this dynamic coupling provides the inverter with a Response that emulates physical inertia behaviour, where perturbations Occurring in the capacitor energy are transformed into an angular Correction. This ensures the inverter continuously forms the grid and Supports its stability under varying operating conditions of loads and Solar irradiance.
+This research presents a phase angle control formulation for Grid-Forming Inverters (GFIs) connected to photovoltaic solar systems. The proposed formulation aims to mitigate the impact of DC-link Voltage ($V_{dc}$) ripples by directly linking the squared voltage variations To the instantaneous phase angle of the inverter ($\theta_{t}$). The equation relies on calculating an integral function of the energy Deficit or surplus between the AC output and the PV input, utilizing a Ripple compensation gain measured in ($rad/V^2$). The analytical study Demonstrates that this dynamic coupling provides the inverter with a Response that emulates physical inertia behaviour, where perturbations Occurring in the capacitor energy are transformed into an angular Correction. This ensures the inverter continuously forms the grid and Supports its stability under varying operating conditions of loads and Solar irradiance.
 
 Introduction
 
@@ -32,7 +32,7 @@ $$\frac{2}{C_{dc}}\cdot\int_{0}^{t}\Delta Pd\tau=\Delta V_{dc}^{2}$$
 
 $$\Delta V_{dc}^{2}=\frac{2}{C_{dc}}\cdot\int_{0}^{t}\Delta Pd\tau$$
 
-Where $\Delta Pd\tau=(P_{out}(\tau)-P_{pv}(\tau)).$
+Where $\Delta =(P_{out}(\tau)-P_{pv}(\tau)).$
 
 The formula:
 
