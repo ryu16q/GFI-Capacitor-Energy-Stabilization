@@ -52,9 +52,9 @@ $$\theta(t)=\omega_{0}t+K\cdot\left(\frac{2}{C_{dc}}\int_{0}^{t}(P_{out}(\tau)-P
 
 • $\tau$: Dummy variable of integration representing historical time Progression.
 
-Numerical Case Studies:
+Numerical Case Studies (POC):
 
-To validate the mathematical symmetry of To validate the mathematical symmetry of the proposed formulation, three operational scenarios are evaluated using a 50Hz grid frequency ($\omega_{0}=314.159 \text{ rad/s}$), at time $t=0.01$ s (making $\omega_{0}t=3.1416 \text{ rad}$), with $C_{dc}=1.0 \text{ F}$, and $K_{r}=0.01 \text{ rad/V}^2$. The definite integral is simplified over a $\Delta t=0.01\text{s}$ step as $\int\Delta P(\tau)d\tau\approx\Delta P\times0.01$
+validate the mathematical symmetry of the proposed formulation, three operational scenarios are evaluated using a 50Hz grid frequency ($\omega_{0}=314.159 \text{ rad/s}$), at time $t=0.01$ s (making $\omega_{0}t=3.1416 \text{ rad}$), with $C_{dc}=1.0 \text{ F}$, and $K_{r}=0.01 \text{ rad/V}^2$. The definite integral is simplified over a $\Delta t=0.01\text{s}$ step as $\int\Delta P(\tau)d\tau\approx\Delta P\times0.01$
 
 Case 1: Steady-State Balance ($P_{out}=1000~W$, , $P_{pv}=1000$) :
 
